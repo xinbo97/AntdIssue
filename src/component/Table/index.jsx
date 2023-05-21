@@ -36,8 +36,8 @@ const Ori = () => {
     return (
         <Table
             columns={columns}
-            dataSource={[]}
-            pagination={{ pageSize: 50 }}
+            dataSource={data}
+            pagination={false}
             scroll={{ y: 240, x: 1000 }}
             className={styles.container}
         />
